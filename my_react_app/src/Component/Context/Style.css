@@ -1,0 +1,17 @@
+.panel-light {
+  background-color: white;
+  color: black;
+}
+.panel-dark {
+  background-color: black;
+  color: white;
+}
+
+.button-light {
+    color: aliceblue;
+  background-color: rgb(22, 20, 20);
+}
+.button-dark {
+    color: black;
+  background-color: darkgray;
+}
