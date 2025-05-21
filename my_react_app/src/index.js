@@ -8,13 +8,13 @@ import { ContextProvider } from './Component/Reducer/CounterReducer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+ 
     <Contextuse>
     <ContextProvider>
       <App/>
     </ContextProvider>
     </Contextuse>
-  </React.StrictMode>
+  
 );
 
 // If you want to start measuring performance in your app, pass a function

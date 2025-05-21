@@ -21,13 +21,15 @@ import { ContextProvider } from "./Component/Reducer/CounterReducer";
 import ComponentA from './Component/Reducer/Container/ComponentA'
 import ComponentC from './Component/Reducer/Container/ComponentC'
 import ComponentB from './Component/Reducer/Container/ComponentB'
+import FetchApiReducer from "./Component/Reducer/FetchApiReducer";
+import CallbackEx from "./Component/Callback/CallbackEx";
+import UseRefEX from "./Component/Referencehook/UseRefhook";
+import Hookuser from "./Component/Hookuser";
 
 function App() {
   return (
     <div className="App">
-       <ComponentA/>
-       <ComponentB/>
-       <ComponentC/>
+      <Hookuser/>
     </div>
   );
 }
